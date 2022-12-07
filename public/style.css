@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+body{
+   width: 100vw;
+   height: 100vh;
+   background-color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.player{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.heading{
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   animation: glow 1s ease-in-out infinite alternate;
+}
+#confetti{
+	background: #000;
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: -1;
+}
+
+@-webkit-keyframes glow {
+   from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+   }
+   
+   to {
+     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+   }
+ }
